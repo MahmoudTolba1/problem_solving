@@ -1,0 +1,5 @@
+lista = list(map(int,input().split()))
+x = len(lista)
+seta = set(lista)
+y = len(seta)
+print(len(lista)- len(seta))
